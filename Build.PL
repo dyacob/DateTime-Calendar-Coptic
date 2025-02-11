@@ -36,7 +36,7 @@ print "done!\n";
 } # end if ( $] < 5.006 )
 
 my $builder = Module::Build->new(
-	module_name		=> 'Date::Calendar::Coptic',
+	module_name		=> 'DateTime::Calendar::Coptic',
 	dist_version_from	=> 'lib/DateTime/Calendar/Coptic.pm',
 	dist_author		=> 'Daniel Yacob <dyacob\@cpan.org>',
 	dist_abstract		=> "Coptic Calendar System.",
