@@ -14,3 +14,5 @@ lib/DateTime/Calendar/Coptic/Language/Coptic.pm
 lib/DateTime/Calendar/Coptic/Language/English.pm
 t/01dates.t
 examples/dates.pl
+META.yml
+META.json
