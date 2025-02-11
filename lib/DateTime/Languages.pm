@@ -1,4 +1,4 @@
-package DateTime::Language;
+package DateTime::Languages;
 
 
 BEGIN
@@ -63,7 +63,7 @@ sub iso_codes { keys %ISOMap }
 
 sub class_base
 {
-	"DateTime::Language";
+	"DateTime::Languages";
 }
 
 
@@ -155,13 +155,13 @@ __END__
 
 =head1 NAME
 
-DateTime::Language - base class for DateTime.pm-related language localization
+DateTime::Languages - base class for DateTime.pm-related language localization
 
 =head1 SYNOPSIS
 
-  package DateTime::Language::Gibberish;
+  package DateTime::Languages::Gibberish;
 
-  use base qw(DateTime::Language);
+  use base qw(DateTime::Languages);
 
 =head1 DESCRIPTION
 
@@ -215,8 +215,8 @@ People who want to add support for new languages may be interested in
 subclassing this module.
 
 The simplest way to do this is to simply declare your new module,
-let's call it C<DateTime::Language::Inhumi>, a subclass of
-C<DateTime::Language>, and to define a set of global variables in your
+let's call it C<DateTime::Languages::Inhumi>, a subclass of
+C<DateTime::Languages>, and to define a set of global variables in your
 namespace.
 
 These globals are:
@@ -245,7 +245,7 @@ The terms used for AM and PM in the language you are implementing.
 
 =back
 
-The C<DateTime::Language> module implements methods that use these
+The C<DateTime::Languages> module implements methods that use these
 globals as needed.  If you need to implement more complex algorithms,
 you can override the following methods:
 

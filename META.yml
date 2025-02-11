@@ -16,23 +16,23 @@ provides:
   DateTime::Calendar::Coptic:
     file: lib/DateTime/Calendar/Coptic.pm
     version: '0.04'
-  DateTime::Calendar::Coptic::Language:
-    file: lib/DateTime/Calendar/Coptic/Language.pm
+  DateTime::Calendar::Coptic::Languages:
+    file: lib/DateTime/Calendar/Coptic/Languages.pm
     version: '0.04'
-  DateTime::Calendar::Coptic::Language::Arabic:
-    file: lib/DateTime/Calendar/Coptic/Language/Arabic.pm
+  DateTime::Calendar::Coptic::Languages::Arabic:
+    file: lib/DateTime/Calendar/Coptic/Languages/Arabic.pm
     version: '0.04'
-  DateTime::Calendar::Coptic::Language::Coptic:
-    file: lib/DateTime/Calendar/Coptic/Language/Coptic.pm
+  DateTime::Calendar::Coptic::Languages::Coptic:
+    file: lib/DateTime/Calendar/Coptic/Languages/Coptic.pm
     version: '0.04'
-  DateTime::Calendar::Coptic::Language::English:
-    file: lib/DateTime/Calendar/Coptic/Language/English.pm
+  DateTime::Calendar::Coptic::Languages::English:
+    file: lib/DateTime/Calendar/Coptic/Languages/English.pm
     version: '0.04'
   DateTime::Calendar::CopticEthiopic:
     file: lib/DateTime/Calendar/CopticEthiopic.pm
     version: '0.13'
-  DateTime::Language:
-    file: lib/DateTime/Language.pm
+  DateTime::Languages:
+    file: lib/DateTime/Languages.pm
     version: '0.04'
 requires:
   Class::Factory::Util: '0'

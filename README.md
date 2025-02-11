@@ -6,6 +6,9 @@ DateTime Module for the Coptic Calendar System with Perl
 This is an development release of `DateTime::Calendar::Coptic` it should
 be considered experimental at this time.  Be warned that this package
 provides a slightly modified `DateTime::Language` from DateTime-0.09.
+This module was renamed `DateTime::Languages` in v0.04 of this package
+to avoid conflicts with the authoritative version. This will likely
+be refactored later to apply the primary version.
 
 The package will be a work in progress for quite a while.  Expect
 internals will to change dramatically as the package matures.  The

@@ -2,15 +2,16 @@
 ## English tables
 ##
 
-package DateTime::Calendar::Coptic::Language::English;
+package DateTime::Calendar::Coptic::Languages::English;
 
 BEGIN
 {
 use strict;
+use warnings;
 
-use DateTime::Language;
+use DateTime::Languages;
 use vars qw(@ISA @DayNames @DayAbbreviations @MonthNames @MonthAbbreviations @AMPM $VERSION);
-@ISA = qw(DateTime::Language);
+@ISA = qw(DateTime::Languages);
 
 $VERSION = "0.04";
 

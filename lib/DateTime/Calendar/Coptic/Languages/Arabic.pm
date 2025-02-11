@@ -2,7 +2,7 @@
 ## Arabic tables
 ##
 
-package DateTime::Calendar::Coptic::Language::Arabic;
+package DateTime::Calendar::Coptic::Languages::Arabic;
 
 BEGIN
 {
@@ -10,9 +10,9 @@ use utf8;
 use strict;
 use warnings;
 
-use DateTime::Language;
+use DateTime::Languages;
 use vars qw(@ISA @DayNames @DayAbbreviations @MonthNames @MonthAbbreviations @AMPM $VERSION);
-@ISA = qw(DateTime::Language);
+@ISA = qw(DateTime::Languages);
 
 $VERSION = "0.04";
 

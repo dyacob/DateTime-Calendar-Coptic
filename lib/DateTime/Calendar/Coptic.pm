@@ -11,7 +11,7 @@ use vars qw(
 
 	$VERSION = "0.04";
 
-	require DateTime::Calendar::Coptic::Language;
+	require DateTime::Calendar::Coptic::Languages;
 
 	require Convert::Number::Coptic;
 	$n = new Convert::Number::Coptic;
@@ -58,7 +58,7 @@ my $language = "cop";
 	}
 	else {
 		# print "Loading $language\n";
-		$self->{language} = DateTime::Calendar::Coptic::Language->new ( language => $language );
+		$self->{language} = DateTime::Calendar::Coptic::Languages->new ( language => $language );
 	}
 
 	my $blessing = bless ( $self, $class );
