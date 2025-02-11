@@ -1,8 +1,10 @@
+Build.PL
 Changes
+Changes.md
 LICENSE
 MANIFEST
-Makefile.PL
-README
+README.md
+SECURITY.md
 lib/DateTime/Language.pm
 lib/DateTime/Calendar/Coptic.pm
 lib/DateTime/Calendar/CopticEthiopic.pm  
